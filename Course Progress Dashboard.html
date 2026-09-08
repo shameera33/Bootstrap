@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course progress</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Courses</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Web Development</li>
+    </ul>
+
+    <h4>Web Development Course<span class="badge badge-info badge-pill" style="margin-left: 5px;">New</span></h4>
+
+    <h5 class="text-dark text-center" style="margin-top: 30px; font-family: 'Courier New', Courier, monospace;">Course Completions</h5>
+    <div class="progress" style="height: 30px; margin-top: 10px;">
+        <div class="progress-bar progress-bar-striped bg-success" style="width: 100%;">HTML 100%</div>
+    </div>
+    <br>
+    <div class="progress" style="height: 30px;">
+        <div class="progress-bar progress-bar-striped bg-primary progress-bar-animated" style="width: 75%;">CSS 75%</div>
+    </div>
+    <br>
+    <div class="progress" style="height: 30px;">
+        <div class="progress-bar bg-warning" style="width: 50%;">Javascript 50%</div>
+    </div>
+    <br>
+    <div class="progress" style="height: 30px;">
+        <div class="progress-bar bg-danger" style="width: 25%;">Bootstrap 25%</div>
+    </div>
+
+    <div class="btn-group" style="margin-top: 30px;">
+    <button type="button" class="btn btn-success">Start</button>
+    <button type="button" class="btn btn-warning">Pause</button>
+    <button type="button" class="btn btn-danger">Reset</button>
+    </div>
+
+    <ul class="pagination justify-content-center" style="margin-top: 80px;">
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+    </ul>
+
+    </div>
+</body>
+</html>
